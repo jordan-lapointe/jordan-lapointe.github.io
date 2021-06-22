@@ -1,0 +1,329 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+@font-face {
+  font-family: "merriweather-bolditalic";
+  src: url("../fonts/merriweather-bolditalic-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/merriweather-bolditalic-webfont.woff2") format("woff2"), url("../fonts/merriweather-bolditalic-webfont.woff") format("woff"), url("../fonts/merriweather-bolditalic-webfont.ttf") format("truetype"), url("../fonts/merriweather-bolditalic-webfont.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: "opensans-regular";
+  src: url("../fonts/opensans-regular-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular-webfont.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: "opensans-light";
+  src: url("../fonts/opensans-light-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-light-webfont.woff2") format("woff2"), url("../fonts/opensans-light-webfont.woff") format("woff"), url("../fonts/opensans-light-webfont.ttf") format("truetype"), url("../fonts/opensans-light-webfont.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: "opensans-semibold";
+  src: url("../fonts/opensans-semibold-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/opensans-semibold-webfont.woff") format("woff"), url("../fonts/opensans-semibold-webfont.ttf") format("truetype"), url("../fonts/opensans-semibold-webfont.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: "opensans-bold";
+  src: url("../fonts/opensans-bold-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-bold-webfont.woff2") format("woff2"), url("../fonts/opensans-bold-webfont.woff") format("woff"), url("../fonts/opensans-bold-webfont.ttf") format("truetype"), url("../fonts/opensans-bold-webfont.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+* {
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: inherit; }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: inherit; }
+
+.btn {
+  background-color: #82ca9c;
+  border-radius: 4px;
+  line-height: 45px;
+  display: inline-block;
+  width: 150px;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-family: 'opensans-bold';
+  font-size: 13px; }
+
+h1 {
+  font-family: 'merriweather-bolditalic';
+  font-size: 20px;
+  margin-left: 10px;
+  letter-spacing: -2px; }
+
+h2, h3 {
+  font-family: 'opensans-light'; }
+
+p, a {
+  font-family: 'opensans-regular'; }
+
+@media screen and (min-width: 801px) {
+  header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    height: 150px;
+    color: white; } }
+
+#picture-perfect {
+  background-image: url("../images/masthead.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; }
+  #picture-perfect:before {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both; }
+  #picture-perfect h2 {
+    font-size: 60px;
+    font-weight: 200; }
+  #picture-perfect p {
+    font-size: 13px;
+    font-weight: 400;
+    width: 480px; }
+  #picture-perfect img {
+    margin-bottom: -85px;
+    position: relative;
+    top: 160px;
+    right: -45px; }
+
+#start-something {
+  padding: 75px 0; }
+  #start-something h2 {
+    font-size: 35px;
+    font-weight: 200; }
+  #start-something p {
+    font-size: 13px;
+    line-height: 23px;
+    margin: 30px 0; }
+  #start-something .flex div p:last-child {
+    margin-bottom: 0; }
+  #start-something .flex div:nth-of-type(1) {
+    margin-right: 15px; }
+  #start-something .flex div:nth-of-type(2) {
+    margin-left: 15px;
+    margin-top: 50px; }
+
+#features {
+  color: white;
+  /*&:hover {
+    margin-left: -165px;
+    transition: margin-left 500ms;
+  }
+  transition: margin-left 500ms;*/
+  overflow-x: hidden; }
+  #features .container {
+    max-width: 1600px;
+    margin-right: 0; }
+  #features .flex {
+    flex-wrap: wrap; }
+    #features .flex h3 {
+      font-size: 30px;
+      font-weight: 200; }
+    #features .flex p {
+      font-size: 13px;
+      margin: 30px 0;
+      min-height: 60px; }
+    #features .flex a {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 10px 0; }
+    #features .flex div {
+      min-width: 400px;
+      width: 25%;
+      height: 280px;
+      padding: 50px 40px; }
+    #features .flex div:nth-of-type(1) {
+      background-color: #f5989d; }
+    #features .flex div:nth-of-type(2) {
+      background-color: #615f7d; }
+    #features .flex div:nth-of-type(3) {
+      background-image: url("../images/our-clients.png");
+      background-repeat: no-repeat;
+      background-size: cover; }
+    #features .flex div:nth-of-type(4) {
+      background-color: #bd8cbf; }
+    #features .flex div:nth-of-type(5) {
+      background-image: url("../images/sign-up.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-width: 800px;
+      width: 50%; }
+    #features .flex div:nth-of-type(6) {
+      background-color: #82ca9c; }
+    #features .flex div:nth-of-type(7) {
+      background-image: url("../images/start-something.png");
+      background-repeat: no-repeat;
+      background-size: cover; }
+
+#details {
+  color: black;
+  padding: 75px 0; }
+  #details h2 {
+    font-size: 35px;
+    font-weight: 200;
+    margin: 30px 0; }
+  #details h3 {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 25px 0; }
+  #details p {
+    font-size: 13px;
+    line-height: 23px; }
+  #details .flex {
+    justify-content: space-between;
+    align-items: flex-start; }
+    #details .flex div {
+      max-width: 270px; }
+
+#more-power {
+  background-image: url("../images/power.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 875px;
+  padding-top: 450px;
+  padding-bottom: 140px;
+  color: white; }
+  #more-power h2 {
+    font-size: 60px;
+    font-weight: 200; }
+  #more-power p {
+    font-size: 13px;
+    line-height: 23px;
+    max-width: 480px;
+    margin: 30px 0; }
+  #more-power a {
+    font-size: 14px;
+    font-weight: 600; }
+
+#reasons {
+  background-color: #82ca9c;
+  color: white;
+  padding: 75px 0; }
+  #reasons h2 {
+    font-size: 35px;
+    font-weight: 200;
+    margin: 60px 0; }
+  #reasons h3 {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 25px 0; }
+  #reasons p {
+    font-size: 13px;
+    line-height: 23px; }
+  #reasons .flex {
+    justify-content: space-between; }
+    #reasons .flex div {
+      max-width: 370px; }
+
+#plans {
+  background-color: #f6f7fa;
+  padding: 75px 0; }
+  #plans h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px; }
+  #plans p {
+    line-height: 23px;
+    font-size: 14px;
+    margin: 23px 0; }
+  #plans span {
+    border-radius: 7px;
+    text-transform: uppercase;
+    color: white;
+    font-family: sans;
+    font-weight: 600;
+    font-stretch: condensed;
+    font-size: 13px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 15px;
+    text-align: center; }
+  #plans .btn {
+    margin: 20px 0; }
+  #plans .flex {
+    justify-content: space-between; }
+    #plans .flex div {
+      width: 570px;
+      padding: 50px; }
+    #plans .flex div:first-child span {
+      background-color: #e1e1e1; }
+    #plans .flex div:last-child {
+      background-color: white;
+      box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05); }
+      #plans .flex div:last-child span {
+        background-color: #bd8cbf; }
+
+footer {
+  color: white;
+  padding: 75px 0;
+  background-color: #192431; }
+  footer h3 {
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 400; }
+  footer p {
+    font-size: 13px; }
+  footer li {
+    font-size: 13px;
+    font-family: sans; }
+  footer .flex {
+    flex-wrap: wrap; }
+  footer .flex > div:first-child {
+    width: 620px; }
+  footer .flex > div:nth-child(2) {
+    width: 550px; }
+  footer .flex > div:last-child {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: inherit;
+    width: 510px;
+    justify-content: space-between;
+    margin-top: 50px; }
+  footer input {
+    width: 470px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px 0 0 4px; }
+  footer button {
+    width: 60px;
+    height: 60px;
+    border-radius: 0 4px 4px 0;
+    position: relative;
+    left: -5px;
+    background-color: #82ca9c;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center; }
+  footer ul {
+    list-style: none; }
