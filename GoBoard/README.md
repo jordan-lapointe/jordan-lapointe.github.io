@@ -1,4 +1,3 @@
-**Project Statement**
 I made this project to experiment with three things:
 * Pixi.js, a javascript graphics library for front-end applications.
 * Typescript, a sophisticated way of writing Javascript.
