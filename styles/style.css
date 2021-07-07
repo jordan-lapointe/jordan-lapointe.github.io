@@ -56,6 +56,9 @@ main {
 main a:link {
   color: #ffffff;
 }
+main a:visited {
+  color: #aaaaaa;
+}
 
 main h2 {
   
