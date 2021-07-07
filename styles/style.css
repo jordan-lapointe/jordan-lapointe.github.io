@@ -51,6 +51,9 @@ main {
   width: 85%;
   float: right;
   background-color: #221e33;
+  a:link {
+    color: #221e33;
+  }
 }
 main h2 {
   
