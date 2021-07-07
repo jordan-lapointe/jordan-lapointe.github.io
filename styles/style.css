@@ -51,10 +51,12 @@ main {
   width: 85%;
   float: right;
   background-color: #221e33;
-  a:link {
-    color: #000000;
-  }
 }
+
+main a:link {
+  color: #000000;
+}
+
 main h2 {
   
 }
