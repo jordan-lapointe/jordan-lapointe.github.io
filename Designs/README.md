@@ -1,1 +1,0 @@
-Samples of the design documents I produced at TopHat. This is a small selection of some of my favourites. In total, I produced over 100 documents of similar quality in the ~2 years I spent with TopHat.
